@@ -40,5 +40,7 @@ const heroPerson = {
 
 // normalPerson.chirgeBill.call(heroPerson,2346,1236,245);
 // console.log(heroPerson.salary);
+
+
 normalPerson.chirgeBill.apply(heroPerson,[2300,345,370]);
 console.log(heroPerson.salary);
